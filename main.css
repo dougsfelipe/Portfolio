@@ -1,6 +1,6 @@
 body{
     background-color: #13131A;
-    color: #727272;
+    color: #9A9A9A;
     font-family: 'Source Code Pro', monospace;
 }
 
@@ -32,6 +32,14 @@ body{
     color: var(--yellow);
 }
 
+#pink{
+    color: var(--pink);
+}
+
+#orange{
+    color: var(--orange);
+}
+
 .wrap{
     color: var(--blue);
 }
@@ -58,6 +66,26 @@ h5{
     font-weight: 300;
 }
 
+li{
+    font-size: 22px;
+    font-weight: 300;
+}
+
+button{
+    width: 300px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 26px;
+    color: white;
+    background-color:#515258;
+    box-shadow: 0px 3px 16px #FFFFFF29;
+    border-radius: 8px;
+    border:none;
+    margin-top: 28px;
+    margin-bottom: 100px;
+
+}
+
 
 .image{
     width: 47px;
@@ -71,6 +99,22 @@ h5{
     margin-top: 86px;
 }
 
+.titulo{
+    text-align: center;
+    margin-top: 106px;
+}
+
+.habilidade{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 56px;
+    margin-top: 56px;
+}
+
+.habilidade h2{
+    margin-bottom: 48px;
+    font-size: 32px;
+}
 
 
 
@@ -86,4 +130,26 @@ h3{
     font-size: 24px;
     margin-bottom: 25px;
 }
+
+h5{
+    font-size: 20px;
+}
+
+.col-8{
+    max-width: 90%;
+    flex: 90%;
+}
+
+
   }
+
+
+
+  @media (max-width: 1000px) {
+    
+    .col-3{
+        max-width: 100%;
+        flex: 100%;
+      }
+
+    }

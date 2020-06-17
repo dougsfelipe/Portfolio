@@ -89,6 +89,11 @@ button{
 
 }
 
+ul{
+    max-width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 .image{
     width: 47px;
@@ -198,6 +203,7 @@ button{
     text-align: center;
     font-size: 24px;
     margin-bottom: 16px;
+    padding: 10px;
 }
 
 

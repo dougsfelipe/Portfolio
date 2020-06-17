@@ -1,0 +1,75 @@
+body{
+    background-color: #13131A;
+    color: #727272;
+    font-family: 'Source Code Pro', monospace;
+}
+
+:root{
+    --green: #18AF6C;
+    --red: #EE273E;
+    --blue: #4875BA;
+    --yellow: #FEC20E;
+    --purple: #7261AB;
+    --orange: #F47A20;
+    --pink: #D82983;
+}
+
+
+
+.header{
+    margin-top: 200px;
+}
+
+#green{
+    color: var(--green);
+}
+
+#red{
+    color: var(--red);
+}
+
+#yellow{
+    color: var(--yellow);
+}
+
+.wrap{
+    color: var(--blue);
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+h3{
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.image{
+    width: 47px;
+    
+    color: #9A9A9A;
+    margin:22px;
+    margin-top: 44px !important;
+}
+
+.about{
+    margin-top: 72px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+h3{
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+  }

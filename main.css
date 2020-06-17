@@ -58,6 +58,8 @@ h3{
 h2{
     font-size:44px;
     font-weight: 500;
+    margin-top: 68px;
+    margin-bottom: 68px;
 }
 
 h5{
@@ -82,7 +84,8 @@ button{
     border-radius: 8px;
     border:none;
     margin-top: 28px;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
+    
 
 }
 
@@ -96,26 +99,127 @@ button{
 }
 
 .about{
-    margin-top: 86px;
+    margin-top: 68px;
+    margin-bottom: 68px;
+    
 }
 
 .titulo{
     text-align: center;
-    margin-top: 106px;
+    margin-top: 68px;
+    margin-bottom: 68px;
 }
 
 .habilidade{
     font-size: 28px;
     font-weight: 500;
     margin-bottom: 56px;
-    margin-top: 56px;
+    
 }
 
 .habilidade h2{
     margin-bottom: 48px;
     font-size: 32px;
+    margin-top: 12px;
 }
 
+.card{
+    width: 420px;
+    height: 260px;
+    color: #9A9A9A;
+    background-color: #2A2B30;
+    box-shadow: 0px 3px 8px #FFFFFF28;
+    border-radius: 10px;
+    margin-bottom: 60px;
+
+}
+
+.titulo-card{
+    background-color: #515258;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.circles{
+    display: flex;
+    padding:5px;
+    justify-content: right;
+}
+
+#circle-green{
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    background-color: var(--green);
+    margin-left: 5px;
+}
+
+#circle-yellow{
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    background-color: var(--yellow);
+    margin-left: 5px;
+}
+
+
+#circle-red{
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    background-color: var(--red);
+    margin-left: 5px;
+}
+
+.title-card-text{
+    padding-left:10px;
+    padding-top: 10px;
+    font-size: 22px;
+    color: var(--purple);
+    font-weight: 600;
+}
+
+.texto-projeto{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: 400;
+}
+
+.link-projeto{
+    padding-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: var(--green)
+}
+
+.footer{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+
+@media (max-width: 460px) {
+    
+    .card{
+        width: 340px;
+        height: 290px;
+        
+    
+    }
+    }
+
+    @media (max-width: 336px) {
+    
+        .card{
+            width: 310px;
+            height: 290px;
+            
+        
+        }
+        }
 
 
 @media only screen and (max-width: 600px) {
@@ -138,6 +242,10 @@ h5{
 .col-8{
     max-width: 90%;
     flex: 90%;
+}
+
+.header{
+    padding: 20px;
 }
 
 

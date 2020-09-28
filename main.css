@@ -88,6 +88,14 @@ button{
     
 
 }
+button:hover{
+    
+    background-color:#9A9A9A;
+    transition-duration: 0.8s;
+    
+    
+
+}
 
 ul{
     max-width: 200px;
@@ -99,6 +107,15 @@ ul{
     width: 47px;
     
     color: #9A9A9A;
+    margin:22px;
+    margin-top: 44px !important;
+}
+
+.image:hover{
+    width: 47px;
+    
+    opacity: 0.5;
+    transition-duration: 0.3s;
     margin:22px;
     margin-top: 44px !important;
 }
